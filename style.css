@@ -3,3 +3,190 @@
     margin: 0px;
     border: none;
 }
+
+.MCA {
+    /* ООО МСА Турбогенерация */
+
+    position: absolute;
+
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%);
+
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9.5vh;
+
+    color: #FF6900;
+    white-space: nowrap;
+}
+
+.logoMCA {
+    position: absolute;
+
+    left: 84.5%;
+    top: 3.5%;
+
+    width: 13vw;
+}
+
+.unicont {
+    position: absolute;
+
+    left: 84.568%;
+    top: 16%;
+
+    width: 13vw;
+}
+
+.Russia {
+    position: absolute;
+
+    width: 7.1vw;
+
+    left: 76%;
+    top: 13.5%;
+}
+
+.venture {
+    /* Предприятие группы компаний */
+
+    position: absolute;
+
+    left: 83.7%;
+    top: 21%;
+    
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vh;
+
+    color: #EC6608;
+}
+
+.NPK {
+        /* Предприятие группы компаний */
+
+        position: absolute;
+
+        left: 83.6%;
+        top: 24%;
+        
+    
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vh;
+    
+        color: #EC6608;
+}
+
+.turbogeneration {
+    /* ООО «МСА ТУРБОГЕНЕРАЦИЯ» – это сплоченный коллектив профессионалов */
+
+    position: absolute;
+
+    left: 15.5%;
+    top: 14%;
+
+    width: 58vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+
+    color: #000000;
+
+    border: 4px solid #EC6608;
+    padding: 10px 10px 10px 10px;
+}
+
+.generate {
+    position: absolute;
+
+    width: 20vw;
+
+    top: 29%;
+    left: 15.5%;
+}
+
+.kojuch {
+
+}
+
+.turboduv {
+
+}
+
+.duchovka {
+
+}
+
+
+.project {
+    position: absolute;
+
+    left: 36%;
+    top: 28.7%;
+
+    width: 58vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+
+    color: #000000;
+}
+
+.powerhouse {
+
+}
+
+.vand {
+
+}
+
+.GTU {
+
+}
+
+.gl {
+
+}
+
+.footer {
+
+}
+
+.cont {
+
+}
+
+.tel1 {
+
+}
+
+.tel2 {
+
+}
+
+.adres {
+
+}
+
+.manager {
+
+}
+
+.Alecksey {
+
+}
+
+.tel3 {
+
+}
