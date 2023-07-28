@@ -27,9 +27,9 @@
     position: absolute;
 
     left: 84.5%;
-    top: 3.5%;
+    top: 5%;
 
-    width: 13vw;
+    width: 11vw;
 }
 
 .unicont {
@@ -38,7 +38,7 @@
     left: 84.568%;
     top: 16%;
 
-    width: 13vw;
+    width: 11vw;
 }
 
 .Russia {
@@ -46,8 +46,8 @@
 
     width: 7.1vw;
 
-    left: 76%;
-    top: 13.5%;
+    left: 75.8%;
+    top: 13.3%;
 }
 
 .venture {
@@ -62,9 +62,9 @@
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 2vh;
+    font-size: 1.7vh;
 
-    color: #EC6608;
+    color: #FF6900;
 }
 
 .NPK {
@@ -79,9 +79,9 @@
         font-family: 'Rubik', sans-serif;
         font-style: normal;
         font-weight: 600;
-        font-size: 2vh;
+        font-size: 1.7vh;
     
-        color: #EC6608;
+        color: #FF6900;
 }
 
 .turbogeneration {
@@ -92,101 +92,584 @@
     left: 15.5%;
     top: 14%;
 
-    width: 58vw;
+    width: 120vh;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2.2vh;
+    font-size: 2.01vh;
 
     color: #000000;
 
-    border: 4px solid #EC6608;
+    border: 4px solid #FF6900;
     padding: 10px 10px 10px 10px;
 }
 
 .generate {
     position: absolute;
 
-    width: 20vw;
+    width: 21.5vw;
 
     top: 29%;
     left: 15.5%;
 }
 
 .kojuch {
+    position: absolute;
 
+    width: 17vw;
+
+    top: 40.5%;
+    left: 38%;
 }
 
 .turboduv {
+    position: absolute;
 
+    width: 17vw;
+
+    top: 49%;
+    left: 55.9%;
 }
 
 .duchovka {
+    position: absolute;
 
+    width: 22.9vw;
+
+    top: 56.5%;
+    left: 73.8%;
 }
 
 
 .project {
     position: absolute;
 
-    left: 36%;
+    left: 37.96%;
     top: 28.7%;
 
-    width: 58vw;
+    width: 59vw;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2.2vh;
+    font-size: 2vh;
 
     color: #000000;
 }
 
 .powerhouse {
+    position: absolute;
 
+    left: 15.5%;
+    top: 60%;
+
+    width: 22vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+
+    color: #000000;
 }
 
 .vand {
+    position: absolute;
 
+    left: 69.3%;
+    top: 42%;
+
+    width: 29vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+
+    color: #000000;
 }
 
 .GTU {
+    position: absolute;
 
+
+    left: 15.5%;
+    top: 79.7%;
+
+    width: 59vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+
+    color: #000000;
 }
 
 .gl {
+    position: absolute;
 
+    color: #FFF;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 100;
+
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+
+    white-space: nowrap;
 }
 
 .footer {
+    position: absolute;
 
+    background-color: #FF6900;
+    border: 1px solid #000000;
+
+    width: 99.9%;
+    height: 7vh;
+
+    top: 100%;
+
+    transform: translate(0,-100%);
 }
 
 .cont {
+    position: absolute;
 
+    color: #FFF;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 400;
+
+    top: 17%;
+    left: 1%;
+}
+
+.uni{
+    position: absolute;
+
+    color: #FFF;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-size: 1.7vh;
+    font-style: normal;
+    font-weight: 400;
+
+    top: 49%;
+    left: 1%;
+}
+
+.d-tel1{
+    position: absolute;
+
+    width: 17.2vh;
+    height: 4vh;
+
+    left: 21%;
+    top: 20%;
 }
 
 .tel1 {
+    position: absolute;
 
+    color: #FFF;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-size: 1.7vh;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .tel2 {
+    position: absolute;
 
+    color: #FFF;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-size: 1.7vh;
+    font-style: normal;
+    font-weight: 400;
+
+    
+    transform: translate(-50%);
+    left: 50%;
+    white-space: nowrap;
+    top: 50%;   
 }
 
 .adres {
+    position: absolute;
 
+    color: #FFF;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-size: 1.7vh;
+    font-style: normal;
+    font-weight: 400;
+
+    left: 50%;
+    transform: translate(-50%);
+    top: 20%;
+}
+
+.d-manager{
+    position: absolute;
+
+    width: 18.6vh;
+    height: 4vh;
+
+    left: 71%;
+    top: 20%;
 }
 
 .manager {
+    position: absolute;
 
+    color: #FFF;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 400;
+
+    transform: translate(-50%);
+    left: 50%;
+
+    white-space: nowrap;
 }
 
 .Alecksey {
+    position: absolute;
 
+    color: #FFF;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 400;
+
+    top: 50%;
 }
 
 .tel3 {
+    position: absolute;
 
+    color: #FFF;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-size: 1.7vh;
+    font-style: normal;
+    font-weight: 400;
+
+    top: 20%;
+    left: 92%;
+}
+
+.menu{
+
+    width: 14.8vw;
+    
+}
+
+.lopost{
+    position: absolute;
+    width: 14.8vw;
+    height: 100vh;
+
+    z-index: -2;
+}
+
+#r-1{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 40%;
+}
+#r-2{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 45.5%;
+}
+#r-3{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 51%;
+}
+#r-4{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 56.5%;
+}
+#r-5{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 62%;
+}
+#r-6{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 67.5%;
+}
+#r-7{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 73%;
+}
+#r-8{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 78.5%;
+}
+#r-9{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 84%;
+}
+
+#d-1{
+    position: absolute;
+    width: 12.5vw;
+    height: 4vh;
+
+    border-radius: 10px;
+    border: 4px solid #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 43%;
+
+    z-index: -1;
+}
+#d-2{
+    position: absolute;
+    width: 12.5vw;
+    height: 4vh;
+
+    border-radius: 10px;
+    border: 4px solid #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 48.5%;
+
+    z-index: -1;
+}
+#d-3{
+    position: absolute;
+    width: 12.5vw;
+    height: 4vh;
+
+    border-radius: 10px;
+    border: 4px solid #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 54%;
+
+    z-index: -1;
+}
+#d-4{
+    position: absolute;
+    width: 12.5vw;
+    height: 4vh;
+
+    border-radius: 10px;
+    border: 4px solid #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 59.5%;
+
+    z-index: -1;
+}
+#d-5{
+    position: absolute;
+    width: 12.5vw;
+    height: 4vh;
+
+    border-radius: 10px;
+    border: 4px solid #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 65%;
+
+    z-index: -1;
+}
+#d-6{
+    position: absolute;
+    width: 12.5vw;
+    height: 4vh;
+
+    border-radius: 10px;
+    border: 4px solid #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 70.5%;
+
+    z-index: -1;
+}
+#d-7{
+    position: absolute;
+    width: 12.5vw;
+    height: 4vh;
+
+    border-radius: 10px;
+    border: 4px solid #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 76%;
+
+    z-index: -1;
+}
+#d-8{
+    position: absolute;
+    width: 12.5vw;
+    height: 4vh;
+
+    border-radius: 10px;
+    border: 4px solid #FF6900;
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 81.5%;
+
+    z-index: -1;
+}
+
+.logo{
+    position: absolute;
+
+    width: 27.2vh;
+
+    z-index: 3;
+
+    margin: 0;
+    top: 0;
+    left: 7.3%;
+    transform: translate(-50%);
+}
+
+
+.loposti{
+    position: absolute;
+
+    width: 26vh;
+
+    margin: 0;
+
+    top: 1%;
+    left: 0.6%;
+    transform: translate(-50%);
+    z-index: 1;
+    animation: rotation 8s infinite;
+    animation-timing-function: linear;
+}
+.vector{
+    position: absolute;
+
+    width: 27.2vh;
+
+    z-index: 0;
+
+    margin: 0;
+    top: 0;
+    left: 7.3%;
+    transform: translate(-50%);
+}
+
+
+
+@keyframes rotation{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
 }
