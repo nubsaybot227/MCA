@@ -84,128 +84,87 @@
         color: #FF6900;
 }
 
-.turbogeneration {
-    /* ООО «МСА ТУРБОГЕНЕРАЦИЯ» – это сплоченный коллектив профессионалов */
 
+.century {
     position: absolute;
 
     left: 15.5%;
     top: 14%;
 
-    width: 120vh;
+    width: 60vw;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2.01vh;
+    font-size: 2.1vh;
 
-    color: #000000;
-
-    border: 4px solid #FF6900;
-    padding: 10px 10px 10px 10px;
+    color: rgba(0, 0, 0, 0.50);
 }
 
-.generate {
+.beginning {
     position: absolute;
 
-    width: 21.5vw;
+    left: 16.5%;
+    top: 27.5%;
 
-    top: 29%;
-    left: 15.5%;
-}
-
-.kojuch {
-    position: absolute;
-
-    width: 17vw;
-
-    top: 40.5%;
-    left: 38%;
-}
-
-.turboduv {
-    position: absolute;
-
-    width: 17vw;
-
-    top: 49%;
-    left: 55.9%;
-}
-
-.duchovka {
-    position: absolute;
-
-    width: 22.9vw;
-
-    top: 56.5%;
-    left: 73.8%;
-}
-
-
-.project {
-    position: absolute;
-
-    left: 37.96%;
-    top: 28.7%;
-
-    width: 59vw;
+    width: 80vw;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 2.1vh;
 
-    color: #000000;
+    color: rgba(0, 0, 0, 0.60);
 }
 
-.powerhouse {
+.year {
     position: absolute;
 
-    left: 15.5%;
-    top: 60%;
+    left: 17.5%;
+    top: 36.4%;
 
-    width: 22vw;
+    width: 80vw;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 2.1vh;
 
-    color: #000000;
+    color: rgba(0, 0, 0, 0.70);
 }
 
-.vand {
+.division {
     position: absolute;
 
-    left: 69.3%;
-    top: 42%;
+    left: 18.5%;
+    top: 42.7%;
 
-    width: 29vw;
+    width: 80vw;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 2.1vh;
 
-    color: #000000;
+    color: rgba(0, 0, 0, 0.80);
 }
 
-.GTU {
+.ooo {
     position: absolute;
 
+    left: 56%;
+    top: 52%;
 
-    left: 15.5%;
-    top: 79.7%;
-
-    width: 59vw;
+    width: 35vw;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 2.1vh;
 
-    color: #000000;
+    color: rgba(0, 0, 0,);
 }
+
 
 .gl {
     position: absolute;
@@ -686,26 +645,29 @@
     transform: translate(-50%);
 }
 
-.shesternya{
+.f-his{
     position: absolute;
-    z-index: -5;
+    z-index: -3;
+    width: 100%;
 
-    width: 100vw;
-    height: 100vh;
-}
-.turb{
-    position: absolute;
-
-    z-index: -4;
-
-    height: 100vh;
-    
-    left: 14%;
+    height: 100%;
 }
 
 @keyframes rotation{
     from{transform: rotate(0deg);}
     to{transform: rotate(360deg);}
+}
+
+@media (max-height: 567px){
+    #r-1{border-radius: 6px;}
+    #r-2{border-radius: 6px;}
+    #r-3{border-radius: 6px;}
+    #r-4{border-radius: 6px;}
+    #r-5{border-radius: 6px;}
+    #r-6{border-radius: 6px;}
+    #r-7{border-radius: 6px;}
+    #r-8{border-radius: 6px;}
+    #r-9{border-radius: 6px;}
 }
 
 #r-1:hover{background: #101D2B;}
