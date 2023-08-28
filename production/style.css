@@ -84,7 +84,98 @@
         color: #FF6900;
 }
 
+.collag {
+    position: absolute;
+    width: 59vw;
+    height: 14vh;
 
+    top: 14%;
+    left: 15.8%;
+}
+
+.compit {
+    position: absolute;
+    width: 17vw;
+    height: 66vh;
+
+    transform: translate(-100%);
+    top: 28%;
+    left: 100%;
+}
+
+.vert {
+    position: absolute;
+
+    width: 18vw;
+    height: 43vh;
+    
+    left: 15.8%;
+    top: 35.65%;
+}
+
+.p-t1 {
+    position: absolute;
+
+
+    left: 15.8%;
+    top: 30%;
+
+    width: 65vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+
+    color: #000000;
+}
+.p-t2 {
+    position: absolute;
+
+    line-height: 4vh;
+
+    left: 35.8%;
+    top: 40%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+
+    color: #000000;
+}
+
+.p-t3 {
+    position: absolute;
+
+    left: 35.8%;
+    top: 72.5%;
+
+    width: 46vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+
+    color: #000000;
+}
+
+.p-t4 {
+    position: absolute;
+
+    left: 15.8%;
+    top: 80%;
+
+    width: 65vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+
+    color: #000000;
+}
 
 .gl {
     position: absolute;
@@ -244,6 +335,26 @@
 
     top: 50%;
 }
+.alecksey{
+    position: absolute;
+    width: 3vw;
+    height: 100%;
+
+    background-image: url(/img/aleksey.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    transform: translate(-100%,-100%);
+    transition: 0.2s;
+    top: 100%;
+    left: 100%;
+}
+
+.alecksey:hover{
+    width: 5vw;
+    height: 13vh;
+    background-image: url(/img/aleksey1.png);
+}
 
 .tel3 {
     position: absolute;
@@ -257,7 +368,7 @@
     font-weight: 400;
 
     top: 20%;
-    left: 92%;
+    left: 86%;
 }
 
 .menu{
@@ -269,10 +380,159 @@
 .lopost{
     position: absolute;
     width: 14.8vw;
-    height: 100vh;
+    height: 98vh;
 
     z-index: -2;
 }
+
+.r-10{
+    width: 13.5vw; height: 5.7vh; filter: blur(15px);
+}
+.r-11{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: rgba(255, 184, 0, 1);
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 40%;
+
+    transition: 0.4s;
+    z-index: -1;
+}
+.r-12{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: rgba(255, 184, 0, 1);
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 45.5%;
+
+    z-index: -1;
+    transition: 0.4s;
+}
+.r-13{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: rgba(255, 184, 0, 1);
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 51%;
+
+    z-index: -1;
+    transition: 0.4s;
+}
+.r-14{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: rgba(255, 184, 0, 1);
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 56.5%;
+
+    z-index: -1;
+    transition: 0.4s;
+}
+.r-15{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: rgba(255, 184, 0, 1);
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 62%;
+
+    z-index: -1;
+    transition: 0.4s;
+}
+.r-16{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: rgba(255, 184, 0, 1);
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 67.5%;
+
+    z-index: -1;
+    transition: 0.4s;
+}
+.r-17{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: rgba(255, 184, 0, 1);
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 73%;
+
+    z-index: -1;
+    transition: 0.4s;
+}
+.r-18{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: rgba(255, 184, 0, 1);
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 78.5%;
+
+    z-index: -1;
+    transition: 0.4s;
+}
+.r-19{
+    position: absolute;
+    width: 11.5vw;
+    height: 3.7vh;
+
+    border-radius: 10px;
+    border: 2.5px solid #000;
+    background: rgba(255, 184, 0, 1);
+
+    transform: translate(-50%,-50%);
+    left: 7.3%;
+    top: 84%;
+
+    z-index: -1;
+    transition: 0.4s;
+}
+
 
 #r-1{
     position: absolute;
@@ -281,7 +541,7 @@
 
     border-radius: 10px;
     border: 2.5px solid #000;
-    background: #FF6900;
+    background: #C1C1C1;
 
     transform: translate(-50%,-50%);
     left: 7.3%;
@@ -296,7 +556,7 @@
 
     border-radius: 10px;
     border: 2.5px solid #000;
-    background: #FF6900;
+    background: #C1C1C1;
 
     transform: translate(-50%,-50%);
     left: 7.3%;
@@ -326,7 +586,7 @@
 
     border-radius: 10px;
     border: 2.5px solid #000;
-    background: #FF6900;
+    background: #C1C1C1;
 
     transform: translate(-50%,-50%);
     left: 7.3%;
@@ -341,7 +601,7 @@
 
     border-radius: 10px;
     border: 2.5px solid #000;
-    background: #FF6900;
+    background: #C1C1C1;
 
     transform: translate(-50%,-50%);
     left: 7.3%;
@@ -356,7 +616,7 @@
 
     border-radius: 10px;
     border: 2.5px solid #000;
-    background: #FF6900;
+    background: #C1C1C1;
 
     transform: translate(-50%,-50%);
     left: 7.3%;
@@ -371,7 +631,7 @@
 
     border-radius: 10px;
     border: 2.5px solid #000;
-    background: #FF6900;
+    background: #C1C1C1;
 
     transform: translate(-50%,-50%);
     left: 7.3%;
@@ -386,7 +646,7 @@
 
     border-radius: 10px;
     border: 2.5px solid #000;
-    background: #FF6900;
+    background: #C1C1C1;
 
     transform: translate(-50%,-50%);
     left: 7.3%;
@@ -401,7 +661,7 @@
 
     border-radius: 10px;
     border: 2.5px solid #000;
-    background: #FF6900;
+    background: #C1C1C1;
 
     transform: translate(-50%,-50%);
     left: 7.3%;
@@ -568,7 +828,10 @@
 .f-his{
     position: absolute;
     z-index: -3;
-    width: 100%;
+    width: 88%;
+
+    transform: translate(-100%);
+    left: 100%;
 
     height: 100%;
 }
@@ -590,12 +853,3 @@
     #r-9{border-radius: 6px;}
 }
 
-#r-1:hover{background: #101D2B;}
-#r-2:hover{background: #EEA572;}
-#r-3:hover{background: #EEA572;}
-#r-4:hover{background: #EEA572;}
-#r-5:hover{background: #EEA572;}
-#r-6:hover{background: #EEA572;}
-#r-7:hover{background: #EEA572;}
-#r-8:hover{background: #EEA572;}
-#r-9:hover{background: #EEA572;}
