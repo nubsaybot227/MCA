@@ -106,11 +106,11 @@
 .vert {
     position: absolute;
 
-    width: 18vw;
-    height: 43vh;
+    width: 15vw;
+    height: 38vh;
     
     left: 15.8%;
-    top: 35.65%;
+    top: 39.65%;
 }
 
 .p-t1 {
@@ -134,7 +134,7 @@
 
     line-height: 4vh;
 
-    left: 35.8%;
+    left: 31.8%;
     top: 40%;
 
     font-family: 'Rubik', sans-serif;
@@ -148,7 +148,7 @@
 .p-t3 {
     position: absolute;
 
-    left: 35.8%;
+    left: 31.8%;
     top: 72.5%;
 
     width: 46vw;
@@ -337,7 +337,7 @@
 }
 .alecksey{
     position: absolute;
-    width: 3vw;
+    width: 3.6vw;
     height: 100%;
 
     background-image: url(/img/aleksey.png);
@@ -346,8 +346,8 @@
 
     transform: translate(-100%,-100%);
     transition: 0.2s;
-    top: 100%;
-    left: 100%;
+    top: 100.3%;
+    left: 100.02%;
 }
 
 .alecksey:hover{
