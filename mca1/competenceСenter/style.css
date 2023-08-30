@@ -84,179 +84,237 @@
         color: #FF6900;
 }
 
-
-.poloska1 {
-    width: 100%;
-    height: 1px;
-
-    background-color: #000000;
-}
-
-.poloska2 {
+.gradient{
     position: absolute;
 
-    top: 100%;
+    width: 60vw;
+    height: 10vh;
 
-    width: 100%;
-    height: 1px;
-
-    background-color: #000000;
-}
-
-.n-1 {
-    position: absolute;
-
-    width: 59.7vw;
-    height: 17vh;
-
-    top: 14.5%;
+    top: 16%;
     left: 15.8%;
 }
 
-.n-2 {
-    position: absolute;
-
-    width: 80.7vw;
-    height: 17vh;
-
-    top: 34%;
-    left: 15.8%;
-}
-
-.n-3 {
-    position: absolute;
-
-    width: 80.7vw;
-    height: 17vh;
-
-    top: 53.5%;
-    left: 15.8%;
-}
-
-.n-4 {
-    position: absolute;
-
-    width: 80.7vw;
-    height: 17vh;
-
-    top: 73%;
-    left: 15.8%;
-}
-
-.v-unimach {
-    position: absolute;
-
-    transform: translate(0,-50%);
-    top: 50%;
-    left: 1.5%;
-
-    height: 94%;
-    width: 12.7vw;
-}
-.v-unimach1 {
-    position: absolute;
-
-    transform: translate(0,-50%);
-    top: 50%;
-    left: 1.18%;
-
-    height: 94%;
-}
-.t-4 {
+.zag {
     position: absolute;
 
 
-    left: 17.4%;
-    top: 7%;
+    left: 16.5%;
+    top: 18%;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2.6vh;
+    font-size: 4vh;
+
+    color: #000000;
+}
+
+.c-1 {
+    position: absolute;
+
+    top: 28%;
+    left: 16%;
+
+    width: 26.1vw;
+    height: 63vh;
+
+    background-color: #E7E7E7;
+}
+
+.c-2 {
+    position: absolute;
+
+    top: 28%;
+    left: 43.15%;
+
+    width: 26.1vw;
+    height: 63vh;
+
+    background-color: #E7E7E7;
+}
+
+.c-3 {
+    position: absolute;
+
+    top: 28%;
+    left: 70.3%;
+
+    width: 26.1vw;
+    height: 63vh;
+
+    background-color: #E7E7E7;
+}
+
+.i-1 {
+    width: 100%;
+    height: 22.5vh;
+}
+
+.zag-1 {
+    position: absolute;
+
+    transform: translate(-50%);
+    left: 50%;
+    top: 37%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vh;
+
+    color: #000000;
+
+    white-space: nowrap;
+}
+
+.t-1 {
+    position: absolute;
+
+    left: 2%;
+    top: 44%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1vh;
+
+    color: #000000;
+
+}
+
+.t-2 {  
+    position: absolute;
+
+    left: 2%;
+    top: 56%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1vh;
+
+    color: #000000;
+}
+
+.t-3 {
+    position: absolute;
+
+    left: 2%;
+    top: 68%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1vh;
+
+    color: #000000;
+}
+.t-4 {
+    position: absolute;
+
+    left: 2%;
+    top: 79%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1vh;
 
     color: #000000;
 }
 .t-5 {
     position: absolute;
 
-    left: 17.4%;
-    top: 45%;
-
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2.24vh;
-
-    color: #000000;
-}
-.t-6{
-    position: absolute;
-
-    left: 17.4%;
-    top: 82%;
+    left: 2%;
+    top: 90%;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2.24vh;
+    font-size: 2.1vh;
 
     color: #000000;
 }
 
-.t-1 {
+.t-6 {
     position: absolute;
 
-
-    left: 23.3%;
-    top: 7%;
-
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2.6vh;
-
-    color: #000000;
-}
-.t-2 {
-    position: absolute;
-
-    left: 23.3%;
-    top: 45%;
-
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2.24vh;
-
-    color: #000000;
-}
-.t-3{
-    position: absolute;
-
-    left: 23.3%;
-    top: 82%;
+    left: 2%;
+    top: 44%;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2.24vh;
+    font-size: 2.1vh;
 
     color: #000000;
 }
 .t-7 {
     position: absolute;
 
-    left: 17.4%;
-    top: 30%;
+    left: 2%;
+    top: 60%;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
-    font-weight: 300;
-    font-size: 2.24vh;
+    font-weight: 400;
+    font-size: 2.1vh;
 
     color: #000000;
 }
 
+.t-8 {
+    position: absolute;
+
+    left: 2%;
+    top: 44%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1vh;
+
+    color: #000000;
+}
+.t-9 {
+    position: absolute;
+
+    left: 2%;
+    top: 52%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1vh;
+
+    color: #000000;
+}
+.t-10 {
+    position: absolute;
+
+    left: 2%;
+    top: 64%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1vh;
+
+    color: #000000;
+}
+.t-11 {
+    position: absolute;
+
+    left: 2%;
+    top: 73%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1vh;
+
+    color: #000000;
+}
 
 .gl {
     position: absolute;
@@ -682,7 +740,7 @@
 
     border-radius: 10px;
     border: 2.5px solid #000;
-    background: #FF6900;
+    background: #C1C1C1;
 
     transform: translate(-50%,-50%);
     left: 7.3%;
@@ -712,7 +770,7 @@
 
     border-radius: 10px;
     border: 2.5px solid #000;
-    background: #C1C1C1;
+    background: #FF6900;
 
     transform: translate(-50%,-50%);
     left: 7.3%;
