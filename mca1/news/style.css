@@ -161,6 +161,7 @@
     left: 1.18%;
 
     height: 94%;
+    width: 12.7vw;
 }
 .t-4 {
     position: absolute;
@@ -185,7 +186,7 @@
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 2.24vh;
+    font-size: 1.2vw;
 
     color: #000000;
 }
@@ -213,7 +214,7 @@
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 2.6vh;
+    font-size: 1.3vw;
 
     color: #000000;
 }
@@ -226,7 +227,7 @@
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 2.24vh;
+    font-size: 1.09vw;
 
     color: #000000;
 }
@@ -418,12 +419,12 @@
 }
 .alecksey{
     position: absolute;
-    width: 3.6vw;
+    width: 7.3vh;
     height: 100%;
 
     background-image: url(img/aleksey.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: round;
 
     transform: translate(-100%,-100%);
     transition: 0.2s;
@@ -932,5 +933,23 @@
     #r-7{border-radius: 6px;}
     #r-8{border-radius: 6px;}
     #r-9{border-radius: 6px;}
+}
+
+@media (max-width: 1510px) and (max-height: 844px){
+    .loposti{
+        left: 1.5%;
+    }
+}
+
+@media (max-width: 1510px) and (max-height: 800px){
+    .loposti{
+        left: 2%;
+    }
+}
+
+@media (max-width: 1124px) and (max-height: 535px){
+    .loposti{
+        left: 2.3%;
+    }
 }
 
