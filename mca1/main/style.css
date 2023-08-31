@@ -92,17 +92,17 @@
     left: 15.5%;
     top: 14%;
 
-    width: 120vh;
+    width: 58vw;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2.01vh;
+    font-size: 1.01vw;
 
     color: #000000;
 
     border: 0.51vh solid #FF6900;
-    padding: 10px 10px 10px 10px;
+    padding: 1vh 1vh 1vh 1vh;
 }
 
 .generate {
@@ -132,10 +132,20 @@
     left: 55.9%;
 }
 
+.turbine{
+    position: absolute;
+
+    width: 14.8vw;
+    height: 14vh;
+
+    left: 0;
+}
+
 .duchovka {
     position: absolute;
 
     width: 22.9vw;
+    height: 35vh;
 
     top: 56.5%;
     left: 73.8%;
@@ -193,7 +203,6 @@
 .GTU {
     position: absolute;
 
-
     left: 15.5%;
     top: 79.7%;
 
@@ -202,7 +211,7 @@
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 1vw;
 
     color: #000000;
 }
@@ -823,22 +832,20 @@
 
     margin: 0;
     top: 3%;
-    left: 7.3%;
+    left: 50%;
     transform: translate(-50%);
 }
-
 
 .loposti{
     position: absolute;
 
     width: 19.7vh;
 
-    margin: 0;
-
-    top: 4.1%;
-    left: 2.3%;
-    transform: translate(-50%);
-    z-index: 1;
+    top: 10.5%;
+    left: 4.7vh;
+    z-index: 1; 
+}
+.loposti{
     animation: rotation 10s infinite;
     animation-timing-function: linear;
 }
@@ -851,8 +858,8 @@
     z-index: 0;
 
     margin: 0;
-    top: 3.15%;
-    left: 7.3%;
+    top: 5%;
+    left: 50%;
     transform: translate(-50%);
 }
 
