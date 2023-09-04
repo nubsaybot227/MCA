@@ -167,6 +167,22 @@
 
     color: #000000;
 }
+.project1 {
+    display: none;
+    position: absolute;
+
+    left: 37.96%;
+    top: 28.7%;
+
+    width: 59vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+
+    color: #000000;
+}
 
 .powerhouse {
     position: absolute;
@@ -411,7 +427,7 @@
     background-image: url(img/aleksey1.png);
 }
 
-.menu{
+#menu{
 
     width: 14.8vw;
     
@@ -923,3 +939,504 @@
 #r-7:hover{background: #EEA572;}
 #r-8:hover{background: #EEA572;}
 #r-9:hover{background: #EEA572;} */
+
+
+@media (max-width: 500px){
+    .shesternya{
+        display: none;
+    }
+    .turb{
+        display: none;
+    }
+    .lopost{
+        width: 58vw;
+
+    }
+    #menu{
+        position: absolute;
+        /* left: 42%; */
+        left: 100%;
+        transition: 0.2s;
+
+        z-index: 11;
+    }
+
+    #r-1{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 43.1vh;
+    }
+    #r-2{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 48.6vh;
+    }
+    #r-3{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 54.1vh;
+    }
+    #r-4{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 59vh;
+    }
+    #r-5{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 64vh;
+    }
+    #r-6{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 69vh;
+    }
+    #r-7{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 74vh;
+    }
+    #r-8{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 79vh;
+    }
+    #r-9{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 84vh;
+    }
+    
+    #d-1{
+        width: 43vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 46vh;
+
+        border: 3px solid #FF6900;
+        border-radius: 8px;
+    }
+    #d-2{
+        width: 43vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 51vh;
+
+        border: 3px solid #FF6900;
+        border-radius: 8px;
+    }
+    #d-3{
+        width: 43vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 56vh;
+
+        border: 3px solid #FF6900;
+        border-radius: 8px;
+    }
+    #d-4{
+        width: 43vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 61vh;
+
+        border: 3px solid #FF6900;
+        border-radius: 8px;
+    }
+    #d-5{
+        width: 43vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 66vh;
+
+        border: 3px solid #FF6900;
+        border-radius: 8px;
+    }
+    #d-6{
+        width: 43vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 71vh;
+
+        border: 3px solid #FF6900;
+        border-radius: 8px;
+    }
+    #d-7{
+        width: 43vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 76vh;
+
+        border: 3px solid #FF6900;
+        border-radius: 8px;
+    }
+    #d-8{
+        width: 43vw;
+        height: 3.8vh;
+
+        left: 200%;
+        top: 81vh;
+
+        border: 3px solid #FF6900;
+        border-radius: 8px;
+    }
+
+    .r-11{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 43.1vh;
+    }
+    .r-12{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 48.6vh;
+    }
+    .r-13{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 54.1vh;
+    }
+    .r-14{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 59vh;
+    }
+    .r-15{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 64vh;
+    }
+    .r-16{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 69vh;
+    }
+    .r-17{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 74vh;
+    }
+    .r-18{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 79vh;
+    }
+    .r-19{
+        width: 40vw;
+        height: 3.7vh;
+
+        left: 200%;
+        top: 84vh;
+    }
+    
+    .logo {
+        width: 18vw;
+        left: 70%;
+    }
+    .loposti {
+        width: 16vw;
+
+        left: 12%;
+        top: 7%;
+    }
+    .vector {
+        display: none;
+    }
+    .line{
+        display: block;
+
+        position: absolute;
+
+        height: 1px;
+        width: 100%;
+
+        top: 12%;
+
+        background-color: #000000;
+    }
+    .MCA{
+        font-size: 2.7vh;
+
+        left: 53%;
+        top: 4%;
+    }
+    #lines{
+        position: absolute;
+        display: block!important;
+
+        left: 86%;
+        top: 3.8%;
+
+        width: 9vw;
+    }
+
+
+
+
+    .turbogeneration{
+        border: none;
+
+        font-size: 3.2vw;
+        left: 0.5%;
+        top: 12%;
+
+        width: 95vw;
+    }
+    .project1{
+        display: block!important;
+        font-size: 3.2vw;
+        left: 2.7%;
+        top: 55%;
+
+        width: 95vw;
+    }
+    .project{
+        display: none;
+    }
+    .powerhouse{
+        font-size: 3.2vw;
+        left: 2.7%;
+        top: 107%;
+
+        width: 95vw;
+    }
+    .vand{
+        font-size: 3.2vw;
+        left: 2.7%;
+        top: 117%;
+
+        width: 95vw;
+    }
+    .GTU{
+        font-size: 3.2vw;
+        left: 2.7%;
+        top: 158%;
+
+        width: 95vw;
+    }
+    .generate{
+        left: 6%;
+        width: 86vw;
+        height: 25vh;
+    }
+    .kojuch{
+        left: 6%;
+        top: 80%;
+        width: 86vw;
+        height: 25vh;
+    }
+    .turboduv{
+        left: 6%;
+        top: 127%;
+        width: 86vw;
+        height: 30vh;
+    }
+    .duchovka{
+        display: none;
+    }
+
+
+
+    .footer{
+        top: 212%;
+        height: 30vh;
+    }
+    .cont {
+        font-weight: 300;
+        font-size: 4vw;
+        left: 2.7%;
+        top: 4%;
+    }
+    .uni {
+        font-weight: 300;
+        font-size: 4vw;
+        left: 2.7%;
+        top: 17%;
+    }
+    .tel1 {
+        display: none;
+    }
+    .tel2 {
+        display: none;
+    }
+    .tel10{
+        display: block!important;
+        position: absolute;
+
+        color: #FFF;
+    
+        font-family: 'Rubik', sans-serif;
+    
+        font-weight: 300;
+        font-size: 4vw;
+        left: 2.7%;
+        top: 29%;
+    }
+    .tel11{
+        display: block!important;
+        position: absolute;
+
+        color: #FFF;
+    
+        font-family: 'Rubik', sans-serif;
+    
+        font-weight: 300;
+        font-size: 4vw;
+        left: 2.7%;
+        top: 38%;
+    }
+    .alecksey{
+        display: none;
+    }
+    .d-manager{
+        top: 4%;
+    }
+    .manager {
+        font-weight: 300;
+        font-size: 4vw;
+        left: 7%;
+        top: 0%;
+    }
+    .Alecksey {
+        font-weight: 300;
+        font-size: 4vw;
+        left: -44.5%;
+        top: 96%;
+    }
+    .tel3 {
+        font-weight: 300;
+        font-size: 4vw;
+        left: 58%;
+        top: 29%;
+    }
+    .lin{
+        position: absolute;
+
+        left: -0.6px;
+        top: -1px;
+
+        border: 1px solid #000000;
+
+        width: 99.6%;
+        height: 15vh;
+    }   
+    .lin1{
+        position: absolute;
+
+        left: 50%;
+        top: -1px;
+
+        border: 1px solid #000000;
+
+        width: 50%;
+        height: 15vh;
+    }
+    .adres{
+        font-weight: 300;
+        font-size: 4vw;
+        white-space: nowrap;
+        left: 50%;
+        top: 65%;
+    }
+
+    #close{
+        position: absolute;
+
+        /* width: 42vw;
+        height: 100%; */
+        z-index: 10;
+    }
+
+    .logoMCA {
+        z-index: 12;
+        width: 30vw;
+        left: 100%;
+
+        transition: 0.2s;
+    }
+    .unicont {
+        z-index: 12;
+        width: 30vw;
+        left: 100%;
+        top: 12%;
+
+        transition: 0.2s;
+    }
+    .Russia {
+        z-index: 12;
+        width: 26vw;
+        left: 100%;
+        top: 23%;
+
+        transition: 0.2s;
+    }
+    .venture {
+        font-weight: 400;
+        font-size: 3vw;
+        left: 100%;
+        top: 15%;
+        z-index: 12;
+
+        transition: 0.2s;
+    }
+    .NPK {
+        font-weight: 400;
+        font-size: 3vw;
+        left: 100%;
+        top: 17%;
+        z-index: 12;
+
+        transition: 0.2s;
+    }
+}
+
+#lines{
+    display: none;
+}
+.tel10{
+    display: none;
+}
+.tel11{
+    display: none;
+}

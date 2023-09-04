@@ -52,3 +52,29 @@ function lev7(){document.querySelector(".r-18").classList.remove('r-10')}
 function fun8(){document.querySelector(".r-19").classList.add('r-10')}
 
 function lev8(){document.querySelector(".r-19").classList.remove('r-10')}
+
+
+document.getElementById("lines").onclick = menu;
+document.getElementById("close").onclick = clos;
+
+function menu(){
+    document.getElementById("menu").style.left = 42 + "%";
+    document.getElementById("close").style.width = 42 + "vw";
+    document.getElementById("close").style.height = 100 + "%";
+
+    document.querySelector(".logoMCA").style.left = 56 + "%";
+    document.querySelector(".unicont").style.left = 56 + "%";
+    document.querySelector(".Russia").style.left = 59 + "%";
+    document.querySelector(".venture").style.left = 49 + "%";
+    document.querySelector(".NPK").style.left = 48.7 + "%";
+}
+
+function clos(){
+    document.getElementById("menu").style.left = 100 + "%";
+
+    document.querySelector(".logoMCA").style.left = 100 + "%";
+    document.querySelector(".unicont").style.left = 100 + "%";
+    document.querySelector(".Russia").style.left = 100 + "%";
+    document.querySelector(".venture").style.left = 100 + "%";
+    document.querySelector(".NPK").style.left = 100  + "%";
+}
