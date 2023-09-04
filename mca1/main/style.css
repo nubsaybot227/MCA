@@ -1196,7 +1196,7 @@
         background-color: #000000;
     }
     .MCA{
-        font-size: 2.7vh;
+        font-size: 2.5vh;
 
         left: 53%;
         top: 4%;
@@ -1227,7 +1227,7 @@
         display: block!important;
         font-size: 3.2vw;
         left: 2.7%;
-        top: 55%;
+        top: 57%;
 
         width: 95vw;
     }
@@ -1237,21 +1237,21 @@
     .powerhouse{
         font-size: 3.2vw;
         left: 2.7%;
-        top: 107%;
+        top: 109%;
 
         width: 95vw;
     }
     .vand{
         font-size: 3.2vw;
         left: 2.7%;
-        top: 117%;
+        top: 119%;
 
         width: 95vw;
     }
     .GTU{
         font-size: 3.2vw;
         left: 2.7%;
-        top: 158%;
+        top: 160%;
 
         width: 95vw;
     }
@@ -1262,13 +1262,13 @@
     }
     .kojuch{
         left: 6%;
-        top: 80%;
+        top: 82%;
         width: 86vw;
         height: 25vh;
     }
     .turboduv{
         left: 6%;
-        top: 127%;
+        top: 129%;
         width: 86vw;
         height: 30vh;
     }
@@ -1279,7 +1279,7 @@
 
 
     .footer{
-        top: 212%;
+        top: 214%;
         height: 30vh;
     }
     .cont {
