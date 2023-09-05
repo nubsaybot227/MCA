@@ -775,7 +775,7 @@
 .logo{
     position: absolute;
 
-    width: 22vh;
+    width: 12vw;
 
     z-index: 3;
 
@@ -789,12 +789,12 @@
 .loposti{
     position: absolute;
 
-    width: 19.7vh;
+    width: 10.7vw;
 
     margin: 0;
 
     top: 4.1%;
-    left: 2.3%;
+    left: 1.7%;
     transform: translate(-50%);
     z-index: 1;
     animation: rotation 10s infinite;
@@ -803,8 +803,8 @@
 .vector{
     position: absolute;
 
-    width: 21vh;
-    height: 23vh;
+    width: 11.47vw;
+    height: 12.6vw;
 
     z-index: 0;
 
@@ -839,20 +839,3 @@
     #r-9{border-radius: 6px;}
 }
 
-@media (max-width: 1510px) and (max-height: 844px){
-    .loposti{
-        left: 1.5%;
-    }
-}
-
-@media (max-width: 1510px) and (max-height: 800px){
-    .loposti{
-        left: 2%;
-    }
-}
-
-@media (max-width: 1124px) and (max-height: 535px){
-    .loposti{
-        left: 2.3%;
-    }
-}
