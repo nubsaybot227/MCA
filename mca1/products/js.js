@@ -53,29 +53,3 @@ function fun8(){document.querySelector(".r-19").classList.add('r-10')}
 
 function lev8(){document.querySelector(".r-19").classList.remove('r-10')}
 
-document.querySelector(".zi").onmousemove = wid;
-document.querySelector(".zi").onmouseleave = lwid;
-
-function wid(){
-    document.querySelector(".ustan").style.width = 25 + "vw"; 
-    document.querySelector(".ustan").style.height = 22 + "vh"; 
-}
-
-function lwid(){
-    document.querySelector(".ustan").style.width = 24 + "vw"; 
-    document.querySelector(".ustan").style.height = 20.7 + "vh"; 
-}
-
-document.querySelector(".zi1").onmousemove = wid1;
-document.querySelector(".zi1").onmouseleave = lwid1;
-
-function wid1(){
-    document.querySelector(".turboduv2").style.width = 20 + "vw"; 
-    document.querySelector(".turboduv2").style.height = 24 + "vh"; 
-}
-
-function lwid1(){
-    document.querySelector(".turboduv2").style.width = 19 + "vw"; 
-    document.querySelector(".turboduv2").style.height = 23 + "vh"; 
-}
-

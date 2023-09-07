@@ -84,10 +84,6 @@
         color: #FF6900;
 }
 
-.w{
-    transition: 0.4s;
-}
-
 .blue {
     position: absolute;
 
@@ -96,6 +92,17 @@
 
     left: 15.6%;
     top: 15.4%;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.blue1 {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
 
     border-radius: 10px;
 }
@@ -112,7 +119,19 @@
     border-radius: 10px;
 
     transition: 0.2s;
+    cursor: pointer;
 }
+.red1 {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+
+    transition: 0.5s;
+}
+
 
 .brown {
     position: absolute;
@@ -126,6 +145,17 @@
     border-radius: 10px;
 
     transition: 0.2s;
+    cursor: pointer;
+}
+.brown1 {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+
+    transition: 0.5s;
 }
 
 .lightBlue {
@@ -140,6 +170,17 @@
     border-radius: 10px;
 
     transition: 0.2s;
+    cursor: pointer;
+}
+.lightBlue1 {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+
+    transition: 0.5s;
 }
 
 .green {
@@ -154,6 +195,17 @@
     border-radius: 10px;
 
     transition: 0.2s;
+    cursor: pointer;
+}
+.green1 {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+
+    transition: 0.5s;
 }
 
 .ustan {
@@ -162,10 +214,10 @@
     width: 24vw;
     height: 20.7vh;
 
-    left: 30.5%;
-    top: 28%;
+    left: 10%;
+    top: 8%;
 
-    transform: translate(-50%,-50%);
+    transition: 0.5s;
 }
 
 .turboduv2 {
@@ -174,10 +226,10 @@
     width: 19vw;
     height: 23vh;
 
-    left: 60.6%;
-    top: 28%;
+    left: 18%;
+    top: 2%;
 
-    transform: translate(-50%,-50%);
+    transition: 0.5s;
 }
 
 .disel {
@@ -187,7 +239,9 @@
     height: 22.5vh;
 
     left: 22%;
-    top: 57%;
+    top: 7%;
+
+    transition: 0.5s;
 }
 
 .mosh {
@@ -196,8 +250,10 @@
     width: 16vw;
     height: 23.5vh;
 
-    left: 52.4%;
-    top: 57%;
+    left: 23%;
+    top: 8%;
+
+    transition: 0.5s;
 }
 
 .pushka {
@@ -206,15 +262,17 @@
     width: 21vw;
     height: 28vh;
 
-    left: 77.2%;
-    top: 39%;
+    left: 4%;
+    top: 20%;
+
+    transition: 0.5s;
 }
 
 .t-ustan {
     position: absolute;
 
-    left: 18.8%;
-    top: 40%;
+    left: 11%;
+    top: 68%;
 
     width: 60px;
 
@@ -229,8 +287,8 @@
 .t-turboduv {
     position: absolute;
 
-    left: 51%;
-    top: 39%;
+    left: 10%;
+    top: 65%;
 
     width: 60px;
 
@@ -246,7 +304,7 @@
     position: absolute;
 
     left: 19%;
-    top: 80%;
+    top: 73%;
 
     width: 19vw;
 
@@ -261,8 +319,8 @@
 .t-mosh {
     position: absolute;
 
-    left: 49%;
-    top: 80%;
+    left: 10%;
+    top: 73%;
 
     width: 21vw;
 
@@ -277,7 +335,7 @@
 .t-pushka {
     position: absolute;
 
-    left: 78%;
+    left: 10%;
     top: 70%;
 
     font-family: 'Rubik', sans-serif;
@@ -288,34 +346,11 @@
     color: #ffffff;
 }
 
-.zi{
-    z-index: 3;
-
-    cursor: pointer;
-}
-.zi1{
-    z-index: 3;
-
-    cursor: pointer;
-}
-
-.zi2{
-    z-index: 3;
-
-    cursor: pointer;
-}
-
-.zi3{
-    z-index: 3;
-
-    cursor: pointer;
-}
-
-.zi4{
-    z-index: 3;
-
-    cursor: pointer;
-}
+.blue:hover .ustan{transform: scale(1.07, 1.07);}
+.red:hover .turboduv2{transform: scale(1.07, 1.07);}
+.brown:hover .disel{transform: scale(1.07, 1.07);}
+.lightBlue:hover .mosh{transform: scale(1.07, 1.07);}
+.green:hover .pushka{transform: scale(1.07, 1.07);}
 
 
 
