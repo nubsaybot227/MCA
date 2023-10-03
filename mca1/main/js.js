@@ -78,3 +78,16 @@ function clos(){
     document.querySelector(".venture").style.left = 100 + "%";
     document.querySelector(".NPK").style.left = 100  + "%";
 }
+
+
+document.getElementById("zagAdres1").onmousemove = windowOp;
+document.getElementById("zagAdres1").onmouseleave = windowCl;
+
+
+function windowOp(){
+    document.querySelector(".adresDiv").style.opacity = 1;
+}
+
+function windowCl(){
+    document.querySelector(".adresDiv").style.opacity = 0;
+}

@@ -256,6 +256,37 @@
     transform: translate(0,-100%);
 }
 
+.iconConact{
+    position: absolute;
+
+    top: 50%;
+    transform: translate(0,-50%);
+
+    width: 3vw;
+
+    left: 6.8%;
+}
+.iconAdres{
+    position: absolute;
+
+    top: 50%;
+    left: 43.5%;
+    transform: translate(0,-50%);
+
+    width: 3vw;
+
+    cursor: pointer;
+}
+.iconManager{
+    position: absolute;
+
+    top: 50%;
+    left: 74.8%;
+    transform: translate(0,-50%);
+
+    width: 3vw;
+}
+
 .cont {
     position: absolute;
 
@@ -263,12 +294,31 @@
 
     font-family: 'Rubik', sans-serif;
 
-    font-size: 2vh;
+    font-size: 4vh;
     font-style: normal;
     font-weight: 400;
 
     top: 17%;
-    left: 1%;
+    left: 10%;
+}
+
+#zagAdres{
+    position: absolute;
+
+    color: #FFF;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-size: 4vh;
+    font-style: normal;
+    font-weight: 400;
+
+    transform: translate(-50%);
+
+    top: 17%;
+    left: 50%;
+
+    cursor: pointer;
 }
 
 .uni{
@@ -333,23 +383,44 @@
 
     font-family: 'Rubik', sans-serif;
 
-    font-size: 1.7vh;
+    font-size: 2.2vh;
     font-style: normal;
     font-weight: 400;
 
     left: 50%;
     transform: translate(-50%);
-    top: 20%;
+    top: 25%;
+
+    white-space: nowrap;
 }
 
-.d-manager{
+.contDiv{
+    display: none;
+}
+
+.adresDiv{
     position: absolute;
 
-    width: 18.6vh;
-    height: 4vh;
+    opacity: 0;
 
-    left: 71%;
-    top: 20%;
+    width: 25vw;
+    height: 21vh;
+
+    top: -310%;
+
+    left: 50%;
+
+    transform: translate(-50%);
+
+    background-image: url(img/imgWindow.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+
+    transition: 0.4s;
+}
+
+.managerDiv{
+    display: none;
 }
 
 .manager {
@@ -359,12 +430,13 @@
 
     font-family: 'Rubik', sans-serif;
 
-    font-size: 2vh;
+    font-size: 4vh;
     font-style: normal;
     font-weight: 400;
 
     transform: translate(-50%);
-    left: 50%;
+    top: 17%;
+    left: 85%;
 
     white-space: nowrap;
 }
@@ -419,6 +491,7 @@
     background-image: url(img/aleksey1.png);
 }
 
+
 #menu{
 
     width: 14.8vw;
@@ -428,7 +501,7 @@
 .lopost{
     position: absolute;
     width: 14.8vw;
-    height: 100vh;
+    height: 100%;
 
     z-index: -2;
 }
@@ -878,15 +951,15 @@
     position: absolute;
     z-index: -5;
 
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 .turb{
     position: absolute;
 
     z-index: -4;
 
-    height: 100vh;
+    height: 100%;
     
     left: 14%;
 }
