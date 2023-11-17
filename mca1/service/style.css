@@ -2,6 +2,15 @@
     padding: 0px;
     margin: 0px;
     border: none;
+
+    scroll-behavior: smooth;
+}
+
+.d{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    top: 200%;
 }
 
 .MCA {
@@ -86,7 +95,7 @@
 .recServ {
     position: absolute;
 
-    width: 60vw;
+    width: 59vw;
     height: 5vw;
 
     top: 15.5%;
@@ -354,142 +363,177 @@
 }
 
 
-.ustan {
+.line {
     position: absolute;
 
-    width: 24vw;
-    height: 20.7vh;
-
-    left: 10%;
-    top: 8%;
-
-    transition: 0.5s;
+    top: 95%;
+    left: 16%;
 }
 
-.turboduv2 {
+.zagShef {
     position: absolute;
 
-    width: 19vw;
-    height: 23vh;
+    top: 99%;
+    left: 45%;
 
-    left: 18%;
-    top: 2%;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 5vh;
 
-    transition: 0.5s;
+    color: #000000;
 }
 
-.disel {
+.d-button{
     position: absolute;
 
-    width: 16.5vw;
-    height: 22.5vh;
+    width: 8vw;
+    height: 4.2vh;
 
-    left: 22%;
-    top: 7%;
+    top: 100%;
 
-    transition: 0.5s;
+    left: 17%;
+
+    cursor: pointer;
 }
 
-.mosh {
+.t-button{
     position: absolute;
 
-    width: 16vw;
-    height: 23.5vh;
+    transform: translate(-50%,-50%);
 
-    left: 23%;
-    top: 8%;
+    top: 50%;
+    left: 50%;
 
-    transition: 0.5s;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5vh;
+
+    color: #000000;
 }
 
-.pushka {
+.button3{
     position: absolute;
 
-    width: 21vw;
-    height: 28vh;
-
-    left: 4%;
-    top: 20%;
-
-    transition: 0.5s;
+    width: 100%;
+    height: 100%;
 }
 
-.t-ustan {
+.zagShef2 {
     position: absolute;
 
-    left: 11%;
-    top: 68%;
-
-    width: 60px;
+    top: 109%;
+    left: 16.9%;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.7vw;
+    font-size: 3.1vh;
 
-    color: #ffffff;
-}
-
-.t-turboduv {
-    position: absolute;
-
-    left: 10%;
-    top: 65%;
-
-    width: 60px;
-
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.7vw;
-
-    color: #ffffff;
+    color: #000000;
 }   
 
-.t-disel {
+.iconLoader {
     position: absolute;
 
-    left: 19%;
-    top: 73%;
+    width: 3.4vw;
 
-    width: 19vw;
+    top: 116%;
 
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.7vw;
-
-    color: #ffffff;
+    left: 16.9%;
 }
 
-.t-mosh {
+.iconKey {
     position: absolute;
 
-    left: 10%;
-    top: 73%;
+    width: 3.4vw;
 
-    width: 21vw;
+    top: 123%;
 
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.7vw;
-
-    color: #ffffff;
+    left: 16.9%;
 }
 
-.t-pushka {
+.iconLightning {
     position: absolute;
 
-    left: 10%;
-    top: 70%;
+    width: 3.4vw;
+
+    top: 131%;
+
+    left: 16.9%;
+}
+
+.t-shef1 {
+    position: absolute;
+
+    top: 117.8%;
+    left: 21.1%;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 1.7vw;
+    font-weight: 300;
+    font-size: 3vh;
 
-    color: #ffffff;
+    color: #000000;
+}
+
+.t-shef2 {
+    position: absolute;
+
+    top: 123.1%;
+    left: 21.1%;
+
+    width: 35vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3vh;
+
+    color: #000000;
+}   
+
+.t-shef3 {
+    position: absolute;
+
+    top: 132.5%;
+    left: 21.1%;
+
+    width: 36vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3vh;
+
+    color: #000000;
+}
+
+.t-shef {
+    position: absolute;
+
+    top: 142%;
+    left: 17.2%;
+
+    width: 39vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3vh;
+
+    color: #000000;
+}
+
+.shef5{
+    position: absolute;
+
+    width: 33vw;
+    height: 58vh;
+
+    top: 107.4%;
+    left: 62%;
 }
 
 .blue:hover .ustan{transform: scale(1.07, 1.07);}
@@ -519,7 +563,7 @@
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
 
     background-color: #FF6900;
     border: 1px solid #000000;
@@ -701,7 +745,7 @@
 }
 
 .lopost{
-    position: absolute;
+    position: fixed;
     width: 14.8vw;
     height: 98vh;
 
@@ -712,7 +756,7 @@
     width: 13.5vw; height: 5.7vh; filter: blur(15px);
 }
 .r-11{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -728,7 +772,7 @@
     z-index: -1;
 }
 .r-12{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -744,7 +788,7 @@
     transition: 0.4s;
 }
 .r-13{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -760,7 +804,7 @@
     transition: 0.4s;
 }
 .r-14{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -776,7 +820,7 @@
     transition: 0.4s;
 }
 .r-15{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -792,7 +836,7 @@
     transition: 0.4s;
 }
 .r-16{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -808,7 +852,7 @@
     transition: 0.4s;
 }
 .r-17{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -824,7 +868,7 @@
     transition: 0.4s;
 }
 .r-18{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -840,7 +884,7 @@
     transition: 0.4s;
 }
 .r-19{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -858,7 +902,7 @@
 
 
 #r-1{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -873,7 +917,7 @@
     transition: 0.2s;
 }
 #r-2{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -888,7 +932,7 @@
     transition: 0.2s;
 }
 #r-3{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -903,7 +947,7 @@
     transition: 0.2s;
 }
 #r-4{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -918,7 +962,7 @@
     transition: 0.2s;
 }
 #r-5{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -933,7 +977,7 @@
     transition: 0.2s;
 }
 #r-6{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -948,7 +992,7 @@
     transition: 0.2s;
 }
 #r-7{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -963,7 +1007,7 @@
     transition: 0.2s;
 }
 #r-8{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -978,7 +1022,7 @@
     transition: 0.2s;
 }
 #r-9{
-    position: absolute;
+    position: fixed;
     width: 11.5vw;
     height: 3.7vh;
 
@@ -994,7 +1038,7 @@
 }
 
 #d-1{
-    position: absolute;
+    position: fixed;
     width: 12.5vw;
     height: 4vh;
 
@@ -1008,7 +1052,7 @@
     z-index: -1;
 }
 #d-2{
-    position: absolute;
+    position: fixed;
     width: 12.5vw;
     height: 4vh;
 
@@ -1022,7 +1066,7 @@
     z-index: -1;
 }
 #d-3{
-    position: absolute;
+    position: fixed;
     width: 12.5vw;
     height: 4vh;
 
@@ -1036,7 +1080,7 @@
     z-index: -1;
 }
 #d-4{
-    position: absolute;
+    position: fixed;
     width: 12.5vw;
     height: 4vh;
 
@@ -1050,7 +1094,7 @@
     z-index: -1;
 }
 #d-5{
-    position: absolute;
+    position: fixed;
     width: 12.5vw;
     height: 4vh;
 
@@ -1064,7 +1108,7 @@
     z-index: -1;
 }
 #d-6{
-    position: absolute;
+    position: fixed;
     width: 12.5vw;
     height: 4vh;
 
@@ -1078,7 +1122,7 @@
     z-index: -1;
 }
 #d-7{
-    position: absolute;
+    position: fixed;
     width: 12.5vw;
     height: 4vh;
 
@@ -1092,7 +1136,7 @@
     z-index: -1;
 }
 #d-8{
-    position: absolute;
+    position: fixed;
     width: 12.5vw;
     height: 4vh;
 
@@ -1107,7 +1151,7 @@
 }
 
 .logo{
-    position: absolute;
+    position: fixed;
 
     width: 12vw;
 
@@ -1121,7 +1165,7 @@
 
 
 .loposti{
-    position: absolute;
+    position: fixed;
 
     width: 10.7vw;
 
@@ -1135,7 +1179,7 @@
     animation-timing-function: linear;
 }
 .vector{
-    position: absolute;
+    position: fixed;
 
     width: 11.47vw;
     height: 12.6vw;
