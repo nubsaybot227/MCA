@@ -83,130 +83,276 @@
     
         color: #FF6900;
 }
-
-.blue {
+.recServ {
     position: absolute;
 
-    width: 29.5vw;
-    height: 37vh;
+    width: 60vw;
+    height: 5vw;
+
+    top: 15.5%;
+    left: 15.4%;
+}
+
+.t-serv {
+    position: absolute;
+
+    top: 17.2%;
+    left: 16.6%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 5vh;
+
+    color: #000000;
+}
+
+.shef {
+    position: absolute;
+
+    width: 27.5vw;
+    height: 20vh;
 
     left: 15.6%;
-    top: 15.4%;
-
-    border-radius: 10px;
-
-    cursor: pointer;
-}
-
-.blue1 {
-    position: absolute;
-
-    width: 100%;
-    height: 100%;
-
-    border-radius: 10px;
-}
-
-.red {
-    position: absolute;
-
-    width: 29.5vw;
-    height: 37vh;
-
-    left: 46%;
-    top: 15.4%;
-
-    border-radius: 10px;
-
-    transition: 0.2s;
-    cursor: pointer;
-}
-.red1 {
-    position: absolute;
-
-    width: 100%;
-    height: 100%;
-
-    border-radius: 10px;
-
-    transition: 0.5s;
-}
-
-
-.brown {
-    position: absolute;
-
-    width: 29.5vw;
-    height: 37vh;
-
-    left: 15.6%;
-    top: 54.2%;
-
-    border-radius: 10px;
-
-    transition: 0.2s;
-    cursor: pointer;
-}
-.brown1 {
-    position: absolute;
-
-    width: 100%;
-    height: 100%;
-
-    border-radius: 10px;
-
-    transition: 0.5s;
-}
-
-.lightBlue {
-    position: absolute;
-
-    width: 29.5vw;
-    height: 37vh;
-
-    left: 46%;
-    top: 54.2%;
-
-    border-radius: 10px;
-
-    transition: 0.2s;
-    cursor: pointer;
-}
-.lightBlue1 {
-    position: absolute;
-
-    width: 100%;
-    height: 100%;
-
-    border-radius: 10px;
-
-    transition: 0.5s;
-}
-
-.green {
-    position: absolute;
-
-    width: 22.5vw;
-    height: 63.6vh;
-
-    left: 76.46%;
     top: 27.5%;
 
-    border-radius: 10px;
-
-    transition: 0.2s;
     cursor: pointer;
 }
-.green1 {
+
+.d1-shef {
+    position: absolute;
+
+    width: 11vw;
+    height: 3.3vh;
+
+    transform: translate(-50%);
+    left: 50%;
+    top: 80%;
+}
+
+.button {
     position: absolute;
 
     width: 100%;
     height: 100%;
 
-    border-radius: 10px;
-
-    transition: 0.5s;
+    border-radius: 8px;
 }
+
+.t-s {
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.6vh;
+
+    color: #000000;
+
+    white-space: nowrap;
+}
+
+.t-s1 {
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+    width: 17.07vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.6vh;
+
+    color: #000000;
+}
+.t-s2 {
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+    width: 15.4vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.6vh;
+
+    color: #000000;
+}
+.t-s3 {
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+    width: 16vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.6vh;
+
+    color: #000000;
+}
+
+
+
+.img1 {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+}
+
+.naladka {
+    position: absolute;
+
+    width: 27.5vw;
+    height: 20vh;
+
+    left: 44.2%;
+    top: 27.5%;
+
+    cursor: pointer;
+}
+
+.d1-naladka{
+    position: absolute;
+
+    width: 12.5vw;
+    height: 3.3vh;
+
+    transform: translate(-50%);
+    left: 50%;
+    top: 80%;
+}
+
+
+.modr {
+    position: absolute;
+
+    width: 27.5vw;
+    height: 20vh;
+
+    left: 15.6%;
+    top: 49.3%;
+
+    cursor: pointer;
+}
+
+.d1-modr {
+    position: absolute;
+
+    width: 12vw;
+    height: 3.3vh;
+
+    transform: translate(-50%);
+    left: 50%;
+    top: 80%;
+}
+
+.monitoring {
+    position: absolute;
+
+    width: 27.5vw;
+    height: 20vh;
+
+    left: 44.2%;
+    top: 49.3%;
+
+    cursor: pointer;
+}
+
+.d1-monitoring {
+    position: absolute;
+
+    width: 16.5vw;
+    height: 3.3vh;
+
+    transform: translate(-50%);
+    left: 50%;
+    top: 80%;
+}
+
+.konsul {
+    position: absolute;
+
+    width: 27.5vw;
+    height: 20vh;
+
+    left: 15.6%;
+    top: 71%;
+
+    cursor: pointer;
+}
+
+.d1-konsul {
+    position: absolute;
+
+    width: 20vw;
+    height: 6vh;
+
+    transform: translate(-50%);
+    left: 50%;
+    top: 65%;
+}
+
+.remont {
+    position: absolute;
+
+    width: 27.5vw;
+    height: 20vh;
+
+    left: 44.2%;
+    top: 71%;
+
+    cursor: pointer;
+}
+
+.d1-remont {
+    position: absolute;
+
+    width: 20vw;
+    height: 6vh;
+
+    transform: translate(-50%);
+    left: 50%;
+    top: 65%;
+}
+
+.obsl {
+    position: absolute;
+
+    width: 24.6vw;
+    height: 63.5vh;
+
+    left: 72.9%;
+    top: 27.5%;
+
+    cursor: pointer;
+}
+
+.d1-obsl {
+    position: absolute;
+
+    width: 19vw;
+    height: 11vh;
+
+    transform: translate(-50%);
+    left: 50%;
+    top: 80%;
+}
+
 
 .ustan {
     position: absolute;
@@ -763,7 +909,7 @@
 
     border-radius: 10px;
     border: 2.5px solid #000;
-    background: #FF6900;
+    background: #C1C1C1;
 
     transform: translate(-50%,-50%);
     left: 7.3%;
@@ -823,7 +969,7 @@
 
     border-radius: 10px;
     border: 2.5px solid #000;
-    background: #C1C1C1;
+    background: #FF6900;
 
     transform: translate(-50%,-50%);
     left: 7.3%;
