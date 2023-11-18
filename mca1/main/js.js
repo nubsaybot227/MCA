@@ -98,10 +98,12 @@ document.getElementById("cont1").onmouseleave = windowCl1;
 
 function windowOp1(){
     document.querySelector(".contDiv").style.opacity = 1;
+    document.querySelector(".contDiv").style.left = 14.5 + '%';
 }
 
 function windowCl1(){
     document.querySelector(".contDiv").style.opacity = 0;
+    document.querySelector(".contDiv").style.left = 24 + '%';
 }
 
 document.getElementById("manager1").onmousemove = windowOp2;
