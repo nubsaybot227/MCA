@@ -8,9 +8,11 @@
 
 .d{
     position: absolute;
-    height: 10px;
-    width: 10px;
-    top: 700%;
+
+    width: 1px;
+    height: 1px;
+
+    top: 950%;
 }
 
 .MCA {
@@ -1031,6 +1033,222 @@
     left: 62%;
 }
 
+.line4 {
+    position: absolute;
+
+    width: 82.2vw;
+
+    top: 629.5%;
+    left: 16%;
+}
+
+.d-button5 {
+    position: absolute;
+
+    width: 8vw;
+    height: 4.2vh;
+
+    top: 633.5%;
+
+    left: 17%;
+
+    cursor: pointer;
+}
+
+.zagCons {
+    position: absolute;
+
+    top: 633%;
+    left: 35%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 5vh;
+
+    color: #000000;
+}
+
+.t-cons {
+    position: absolute;
+
+    width: 35vw;
+
+    top: 644.5%;
+    left: 17%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4vw;
+
+    color: #000000;
+}
+
+.konsul1 {
+    position: absolute;
+
+    width: 33vw;
+    height: 58vh;
+
+    top: 664%;
+    left: 62%;
+}
+
+.line5 {
+    position: absolute;
+
+    width: 82.2vw;
+
+    top: 744.5%;
+    left: 16%;
+}
+
+.d-button6 {
+    position: absolute;
+
+    width: 8vw;
+    height: 4.2vh;
+
+    top: 748.5%;
+
+    left: 17%;
+
+    cursor: pointer;
+}
+
+.zagRepair {
+    position: absolute;
+
+    top: 747.8%;
+    left: 34.6%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 5vh;
+
+    color: #000000;
+}
+
+.t-repair {
+    position: absolute;
+
+    width: 35vw;
+
+    top: 759%;
+    left: 17%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4vw;
+
+    color: #000000;
+}
+.remont1 {
+    position: absolute;
+
+    width: 33vw;
+    height: 58vh;
+
+    top: 766.2%;
+    left: 62%;
+}
+
+.line6 {
+    position: absolute;
+
+    width: 82.2vw;
+
+    top: 834.5%;
+    left: 16%;
+}
+
+.d-button7 {
+    position: absolute;
+
+    width: 8vw;
+    height: 4.2vh;
+
+    top: 839.5%;
+
+    left: 17%;
+
+    cursor: pointer;
+}
+
+.zagMaintenance {
+    position: absolute;
+
+    top: 838.8%;
+    left: 34.6%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 5vh;
+
+    color: #000000;
+}
+
+.t-Maintenance {
+    position: absolute;
+
+    width: 35vw;
+
+    top: 850%;
+    left: 17%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4vw;
+
+    color: #000000;
+}
+
+.zagMaintenance1{
+    position: absolute;
+
+    width: 35vw;
+
+    top: 880.5%;
+    left: 16.9%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.45vw;
+
+    color: #000000;
+}
+
+.t-Maintenance1 {
+    position: absolute;
+
+    width: 35vw;
+
+    top: 895%;
+    left: 17%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4vw;
+
+    color: #000000;
+}
+
+.obsl1 {
+    position: absolute;
+
+    width: 33vw;
+    height: 58vh;
+
+    top: 861.5%;
+    left: 62%;
+}
 
 
 .blue:hover .ustan{transform: scale(1.07, 1.07);}
