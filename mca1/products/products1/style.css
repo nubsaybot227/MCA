@@ -7,7 +7,7 @@
 .d{
     position: absolute;
 
-    top: 140%;
+    top: 200%;
 
     width: 1px;
     height: 1px;
@@ -488,7 +488,65 @@
     background: #FEE8D9;
 }
 
+.mig1 {
+    position: absolute;
 
+    width: 22.8vw;
+
+    left: 77%;
+    top: 30%;
+}
+
+.conditions {
+    position: absolute;
+
+    top: 65%;
+    left: 77%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.7vw;
+
+    color: #000000;
+}
+
+.list {
+    position: absolute;
+
+    width: 22vw;
+
+    top: 71%;
+    left: 77.7%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1vw;
+
+    color: #000000;
+}
+
+.space{
+    position: absolute;
+    left: 5.1%;
+}
+
+.ratedPower {
+    position: absolute;
+
+    width: 22vw;
+
+    top: 108%;
+    left: 77.7%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1vw;
+
+    color: #000000;
+}
 
 
 
