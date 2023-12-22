@@ -7,7 +7,7 @@
 .d{
     position: absolute;
 
-    top: 200%;
+    top: 300%;
 
     width: 1px;
     height: 1px;
@@ -123,12 +123,12 @@
 }
 
 .d-button {
-    position: fixed;
+    position: absolute;
 
     width: 8vw;
     height: 4.2vh;
 
-    top: 2%;
+    top: 18%;
 
     left: 16%;
 
@@ -546,6 +546,135 @@
     font-size: 1.1vw;
 
     color: #000000;
+}
+
+.structure {
+    position: absolute;
+
+    top: 134.3%;
+    left: 36%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.7vw;
+
+    color: #000000;
+}
+
+.GTS {
+    position: absolute;
+
+    top: 140%;
+    left: 40.3%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4vw;
+
+    color: #000000;
+}
+
+.actuator {
+    position: absolute;
+
+    top: 148%;
+    left: 16%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.17vw;
+
+    color: #000000;
+}
+
+.ZagDesignFeatures {
+    position: absolute;
+
+    top: 156%;
+    left: 16%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.17vw;
+
+    color: #000000;
+}
+
+.designFeatures {
+    position: absolute;
+
+    top: 162.5%;
+    left: 17%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.17vw;
+
+    color: #000000;
+}
+
+.biogas {
+    position: absolute;
+
+    top: 193%;
+    left: 16%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.17vw;
+
+    color: #000000;
+}
+
+.ZagKeyDesignFeatures {
+    position: absolute;
+
+    top: 223%;
+    left: 16%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.17vw;
+
+    color: #000000;
+}
+
+.keyDesignFeatures {
+    position: absolute;
+
+    width: 36vw;
+
+    top: 229%;
+    left: 16%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.17vw;
+
+    color: #000000;
+}
+
+.space1{
+    position: absolute;
+
+    left: 3.4%;
+}
+
+.mig2 {
+    position: absolute;
+
+    width: 20vw;
+
+    left: 67%;
+    top: 233%;
 }
 
 
