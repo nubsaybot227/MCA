@@ -7,7 +7,7 @@
 .d{
     position: absolute;
 
-    top: 400%;
+    top: 500%;
 
     width: 1px;
     height: 1px;
@@ -958,6 +958,233 @@
 .color{
     background: #E6E7E9;
 }
+
+.tab2-18{
+    top: 366.54%;
+    left: 16%;
+
+    height: 5.5vh;
+
+    background: #E6E7E9;
+}
+
+.tab2-19{
+    top: 373.14%;
+    left: 16%;
+
+    height: 5.5vh;
+
+    background: #FEE8D9;
+}
+
+.tab2-20{
+    top: 379.74%;
+    left: 16%;
+
+    background: #E6E7E9;
+}
+
+.tab2-21{
+    top: 383.44%;
+    left: 16%;
+
+    background: #FEE8D9;
+}
+
+.tab2-22{
+    top: 387.14%;
+    left: 16%;
+
+    background: #E6E7E9;
+}
+
+.tab2-23{
+    top: 390.84%;
+    left: 16%;
+
+    background: #FEE8D9;
+}
+
+.tab2-24{
+    top: 394.54%;
+    left: 16%;
+
+    background: #E6E7E9;
+}
+
+.tab2-25{
+    top: 398.24%;
+    left: 16%;
+
+    background: #FEE8D9;
+}
+
+.tab2-26{
+    top: 401.94%;
+    left: 16%;
+
+    background: #E6E7E9;
+}
+
+.tabb4-1{
+    position: absolute;
+
+    transform: translate(-50%);
+    left: 50%;
+    top: 140%;
+
+    background: #FEE8D9;
+
+    width: 47vw;
+    height: 2.6vh; 
+}
+
+.tabb4-2{
+    position: absolute;
+
+    transform: translate(-50%);
+    left: 50%;
+    top: 280%;
+
+    background: #E6E7E9;
+
+    width: 47vw;
+    height: 2.6vh; 
+}
+
+.tabb4-3{
+    position: absolute;
+
+    transform: translate(-50%);
+    left: 50%;
+    top: 420%;
+
+    background: #FEE8D9;
+
+    width: 47vw;
+    height: 2.6vh; 
+}
+
+.tabb4-4{
+    position: absolute;
+
+    transform: translate(-50%);
+    left: 50%;
+    top: 560%;
+
+    background: #E6E7E9;
+
+    width: 47vw;
+    height: 2.6vh; 
+}
+
+.t-centr{
+    position: absolute;
+
+    transform: translate(-50%,-50%);
+
+    top: 50%;
+    left: 50%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.17vw;
+
+    color: #000000;
+
+    text-wrap: nowrap;
+}
+
+.tab2-27{
+    top: 420.4%;
+    left: 16%;
+
+    background: #FEE8D9;
+}
+
+.tab2-28{
+    top: 424.1%;
+    left: 16%;
+
+    background: #E6E7E9;
+}
+
+.tab2-29{
+    top: 427.9%;
+    left: 16%;
+
+    background: #FEE8D9;
+}
+
+.tab2-30{
+    top: 431.6%;
+    left: 16%;
+
+    background: #E6E7E9;
+}
+
+.tab2-31{
+    top: 435.3%;
+    left: 16%;
+
+    background: #FEE8D9;
+}
+
+.tab2-32{
+    top: 439%;
+    left: 16%;
+
+    background: #E6E7E9;
+}
+
+.tab2-33{
+    top: 442.7%;
+    left: 16%;
+
+    background: #FEE8D9;
+}
+
+.tab2-34{
+    top: 446.4%;
+    left: 16%;
+
+    background: #E6E7E9;
+}
+
+.complianceWithTheRange{
+    position: absolute;
+
+    top: 451%;
+    left: 16%;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.17vw;
+
+    color: #000000;
+}
+
+.mig3{
+    position: absolute;
+
+    width: 20vw;
+
+    top: 278%;
+    left: 78.1%;
+}
+
+.mig4{
+    position: absolute;
+
+    width: 20vw;
+
+    top: 425%;
+    left: 78.1%;
+}
+
+
 
 
 
