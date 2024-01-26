@@ -7,7 +7,7 @@
 .d{
     position: absolute;
 
-    top: 500%;
+    top: 150.5%;
 
     width: 1px;
     height: 1px;
@@ -102,7 +102,7 @@
     width: 8vw;
     height: 4.2vh;
 
-    top: 4%;
+    top: 6.7%;
 
     left: 16%;
 
@@ -137,7 +137,7 @@
 .table {
     position: absolute;
 
-    width: 70vw;
+    width: 61vw;
     height: 2.6vh; 
 }
 
@@ -149,7 +149,7 @@
     top: 50%;
     left: .5%;
 
-    width: 51.79vw;
+    width: 38vw;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
@@ -232,7 +232,7 @@
 }
 
 .tabLeft{
-    width: 70%;
+    width: 65%;
     height: 100%;
 
     border-right: 1px solid #000;
@@ -242,9 +242,9 @@
     position: absolute;
     top: 0;
 
-    left: 70%;
+    left: 65%;
 
-    width: 30%;
+    width: 35%;
     height: 100%;
 }
 
@@ -266,6 +266,24 @@
     text-wrap: nowrap;
 }
 
+.t-r1{
+    position: absolute;
+
+    transform: translate(-50%,-50%);
+
+    top: 50%;
+    left: 50%;
+
+    width: 17vw;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.17vw;
+
+    color: #000000;
+}
+
 .tab1 {
     top: 40.5%;
     left: 16%;
@@ -277,9 +295,9 @@
     position: absolute;
     top: 0;
 
-    left: 70%;
+    left: 65%;
 
-    width: 15%;
+    width: 17.5%;
     height: 100%;
 
     border-right: 1px solid #000;
@@ -289,9 +307,9 @@
     position: absolute;
     top: 0;
 
-    left: 85%;
+    left: 82.5%;
 
-    width: 15%;
+    width: 17.5%;
     height: 100%;
 }
 
@@ -358,8 +376,131 @@
     background: #E6E7E9;
 }
 
+.tab11 {
+    top: 77.5%;
+    left: 16%;
 
+    height: 5.5vh;
 
+    background: #FEE8D9;
+}
+
+.tab12 {
+    top: 84%;
+    left: 16%;
+
+    background: #E6E7E9;
+}
+
+.tab13 {
+    top: 87.7%;
+    left: 16%;
+
+    height: 5.5vh;
+
+    background: #FEE8D9;
+}
+
+.tab14 {
+    top: 94.2%;
+    left: 16%;
+
+    height: 5.5vh;
+
+    background: #E6E7E9;
+}
+
+.tab15 {
+    top: 100.7%;
+    left: 16%;
+
+    background: #FEE8D9;
+}
+
+.tab16 {
+    top: 104.4%;
+    left: 16%;
+
+    background: #E6E7E9;
+}
+
+.tab17 {
+    top: 108.1%;
+    left: 16%;
+
+    background: #FEE8D9;
+}
+
+.tab18 {
+    top: 111.8%;
+    left: 16%;
+
+    height: 5.5vh;
+
+    background: #E6E7E9;
+}
+
+.tab19 {
+    top: 118.3%;
+    left: 16%;
+
+    background: #FEE8D9;
+}
+
+.tab20 {
+    top: 122%;
+    left: 16%;
+
+    background: #E6E7E9;
+}
+
+.tab21 {
+    top: 125.7%;
+    left: 16%;
+
+    background: #FEE8D9;
+}
+
+.tab22 {
+    top: 129.4%;
+    left: 16%;
+
+    height: 5.5vh;
+
+    background: #E6E7E9;
+}
+
+.tab23 {
+    top: 135.9%;
+    left: 16%;
+
+    background: #FEE8D9;
+}
+
+.tab24 {
+    top: 139.6%;
+    left: 16%;
+
+    background: #E6E7E9;
+}
+
+.electric_current_generator {
+    position: absolute;
+
+    width: 20vw;
+
+    top: 36.8%;
+    left: 78.5%;
+}
+
+.electric_current_generator1 {
+    position: absolute;
+
+    width: 20vw;
+
+    top: 105.8%;
+    left: 78.5%;
+}
 
 
 
